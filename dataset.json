@@ -1,0 +1,261 @@
+{
+    "intents": [
+        {
+            "tag": "salam",
+            "patterns": ["Halo", "Hai", "Selamat pagi", "Selamat siang", "Selamat malam"],
+            "responses": [
+                "Hai! Senang bertemu dengan Anda. Apa yang ingin anda ketahui tentang Ir. Soekarno?",
+                "Selamat datang! silahkan bertanya, saya bisa menjelaskan tentang Ir. Soekarno.",
+                "Halo, apa kabar? Ada yang bisa saya bantu tentang Ir. Soekarno?"
+            ]
+        },
+        {
+            "tag": "profil",
+            "patterns": [
+                "Siapa Ir. Soekarno?",
+                "Siapa itu Soekarno?",
+                "Siapakah Soekarno?",
+                "Ceritakan tentang Soekarno",
+                "Biografi Soekarno",
+                "Profil presiden pertama Indonesia"
+            ],
+            "responses": [
+                "Ir. Soekarno adalah presiden pertama Republik Indonesia, menjabat dari 1945 hingga 1967. Beliau dikenal sebagai Proklamator Kemerdekaan bersama Mohammad Hatta pada 17 Agustus 1945.",
+                "Presiden pertama Indonesia, Ir. Soekarno, memimpin negara dari 1945 hingga 1967. Beliau adalah Proklamator Kemerdekaan yang memproklamasikan Indonesia merdeka pada 17 Agustus 1945.",
+                "Soekarno adalah tokoh utama dalam perjuangan kemerdekaan Indonesia, memproklamasikan kemerdekaan pada 17 Agustus 1945, dan menggagas Konferensi Asia-Afrika pada 1955.",
+                "Sebagai pemimpin perjuangan kemerdekaan, Soekarno mendeklarasikan kemerdekaan Indonesia dan memimpin berbagai inisiatif seperti Konferensi Asia-Afrika di Bandung."
+            ]
+        },
+        {
+            "tag": "masa_kecil",
+            "patterns": [
+                "Bagaimana masa kecil Soekarno?",
+                "Dimana Soekarno lahir?",
+                "Dimana tempat lahir Soekarno?",
+                "Bagaimana kisah masa kecil Soekarno?",
+                "Kapan Soekarno lahir?",
+                "Kapankah Soekarno lahir?"
+            ],
+            "responses": [
+                "Soekarno lahir pada 6 Juni 1901 di Surabaya. Masa kecilnya penuh tantangan, hingga akhirnya nama kecilnya, Kusno Sosrodihardjo, diganti menjadi Soekarno.",
+                "Lahir pada 6 Juni 1901 di Surabaya, Soekarno awalnya bernama Kusno Sosrodihardjo. Nama ini diganti karena ia sering sakit-sakitan.",
+                "Soekarno lahir pada 6 Juni 1901 di Surabaya, Jawa Timur. Nama kecilnya adalah Kusno Sosrodihardjo, tetapi kemudian diganti menjadi Soekarno karena ia sering sakit-sakitan."
+            ]
+        },
+        {
+            "tag": "keluarga",
+            "patterns": [
+                "Bagaimana keluarga Soekarno?",
+                "Ceritakan tentang keluarga Soekarno?",
+                "Bagaimana kehidupan keluarga Soekarno?",
+                "Siapa istri Soekarno?",
+                "Siapa saja istri Soekarno?"
+            ],
+            "responses": [
+                "Ir. Soekarno memiliki beberapa istri, seperti Fatmawati, Inggit Garnasih, dan Hartini. Salah satu anaknya yang terkenal adalah Megawati Soekarnoputri, yang menjadi presiden kelima Indonesia.",
+                "Soekarno menikah dengan beberapa wanita, termasuk Fatmawati dan Hartini. Salah satu anaknya, Megawati Soekarnoputri, juga pernah menjadi Presiden Indonesia."
+            ]
+        },
+        {
+            "tag": "pendidikan",
+            "patterns": [
+                "Soekarno sekolah dimana?",
+                "Dimana Soekarno sekolah?",
+                "Dimana Soekarno bersekolah?",
+                "Pendidikan Ir. Soekarno",
+                "Latar belakang pendidikan Soekarno",
+                "Latar belakang akademik Soekarno"
+            ],
+            "responses": [
+                "Soekarno menempuh pendidikan di Technische Hoogeschool te Bandoeng (sekarang ITB), di mana ia lulus sebagai insinyur pada tahun 1926.",
+                "Ir. Soekarno memperoleh gelar insinyur dari Technische Hoogeschool di Bandung, yang kini dikenal sebagai Institut Teknologi Bandung (ITB), pada tahun 1926."
+            ]
+        },
+        {
+            "tag": "karir_awal",
+            "patterns": [
+                "Apa pekerjaan Soekarno sebelum menjadi presiden?",
+                "Karir Soekarno sebelum proklamasi",
+                "Karir Soekarno sebelum menjadi presiden",
+                "Apa yang dilakukan Soekarno sebelum kemerdekaan?",
+                "Apa yang dilakukan Soekarno sebelum menjadi presiden?"
+            ],
+            "responses": [
+                "Sebelum menjadi presiden, Soekarno adalah seorang insinyur dan aktivis pergerakan nasional. Ia mendirikan Partai Nasional Indonesia (PNI) pada tahun 1927 untuk memperjuangkan kemerdekaan Indonesia.",
+                "Ir. Soekarno berkarir sebagai insinyur sipil dan juga aktif dalam pergerakan nasional, termasuk mendirikan PNI pada 1927 untuk melawan penjajahan Belanda."
+            ]
+        },
+        {
+            "tag": "rengasdengklok",
+            "patterns": [
+                "Apa itu peristiwa Rengasdengklok?",
+                "Jelaskan peristiwa Rengasdengklok?",
+                "Kenapa Soekarno dibawa ke Rengasdengklok?",
+                "Kapan Soekarno dibawa ke Rengasdengklok?",
+                "Bagaimana peran Rengasdengklok dalam proklamasi?"
+            ],
+            "responses": [
+                "Peristiwa Rengasdengklok terjadi pada 16 Agustus 1945, ketika Soekarno dan Hatta dibawa ke Rengasdengklok oleh para pemuda untuk mendesaknya segera memproklamasikan kemerdekaan.",
+                "Pada 16 Agustus 1945, Soekarno dan Hatta diculik ke Rengasdengklok oleh pemuda-pemuda seperti Sukarni dan Chaerul Saleh. Tujuannya adalah mendesak mereka agar segera memproklamasikan kemerdekaan tanpa menunggu Jepang."
+            ]
+        },
+        {
+            "tag": "proklamasi",
+            "patterns": [
+                "Bagaimana proklamasi kemerdekaan terjadi?",
+                "Apa peran Soekarno dalam proklamasi?",
+                "Kapan Indonesia merdeka?",
+                "Tanggal kemerdekaan Indonesia?",
+                "Hari proklamasi Indonesia?",
+                "Siapa yang membacakan teks proklamasi?"
+            ],
+            "responses": [
+                "Soekarno memproklamasikan kemerdekaan Indonesia pada 17 Agustus 1945 di Jakarta, bersama Mohammad Hatta.",
+                "Pada 17 Agustus 1945, Soekarno dan Mohammad Hatta membacakan teks Proklamasi, menandai kemerdekaan Indonesia.",
+                "Indonesia merdeka pada tanggal 17 Agustus 1945, yang ditandai dengan pembacaan teks proklamasi oleh Soekarno dan Mohammad Hatta.",
+                "Proklamasi kemerdekaan Indonesia dibacakan pada tanggal 17 Agustus 1945 oleh Soekarno, didampingi oleh Mohammad Hatta, di Jakarta."
+            ]
+        },
+        {
+            "tag": "pidato_terkenal",
+            "patterns": [
+                "Apa pidato terkenal Soekarno?",
+                "Ceritakan pidato bersejarah Soekarno",
+                "Pidato Soekarno yang paling dikenal"
+            ],
+            "responses": [
+                "Pidato Soekarno yang paling terkenal adalah 'Lahirnya Pancasila' pada 1 Juni 1945. Pidato ini merumuskan dasar negara Indonesia.",
+                "Pada 1 Juni 1945, Soekarno menyampaikan pidato 'Lahirnya Pancasila,' yang menjadi landasan filosofis Indonesia."
+            ]
+        },
+        {
+            "tag": "pancasila",
+            "patterns": [
+                "Apa itu Pancasila?",
+                "Jelaskan Pancasila",
+                "Siapa yang menggagas Pancasila?",
+                "Bagaimana Soekarno mencetuskan Pancasila?"
+            ],
+            "responses": [
+                "Pancasila adalah dasar negara Indonesia yang dicetuskan oleh Soekarno pada 1 Juni 1945 dalam sidang BPUPKI. Lima prinsipnya adalah: Ketuhanan Yang Maha Esa, Kemanusiaan yang Adil dan Beradab, Persatuan Indonesia, Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan, dan Keadilan Sosial."
+            ]
+        },
+        {
+            "tag": "monas",
+            "patterns": [
+                "Siapa yang menggagas Monas?",
+                "Apa peran Soekarno dalam pembangunan Monas?",
+                "Kapan Monas dibangun?"
+            ],
+            "responses": [
+                "Monumen Nasional (Monas) digagas oleh Soekarno sebagai simbol perjuangan rakyat Indonesia. Pembangunannya dimulai pada tahun 1961 dan selesai pada 1975.",
+                "Soekarno menggagas pembangunan Monumen Nasional (Monas) sebagai simbol kemerdekaan Indonesia. Proyek ini dimulai pada 1961 dan diresmikan pada masa pemerintahan berikutnya."
+            ]
+        },
+        {
+            "tag": "gelora_bung_karno",
+            "patterns": [
+                "Siapa yang membangun Gelora Bung Karno?",
+                "Siapa yang membangun GBK?",
+                "Apa peran Soekarno dalam pembangunan stadion GBK?",
+                "Kapan Gelora Bung Karno dibangun?",
+                "Kapan GBK dibangun?"
+            ],
+            "responses": [
+                "Stadion Gelora Bung Karno dibangun atas gagasan Soekarno untuk menyelenggarakan Asian Games 1962. Stadion ini menjadi simbol kebanggaan nasional.",
+                "Atas inisiatif Soekarno, Gelora Bung Karno dibangun pada awal 1960-an untuk Asian Games 1962. Stadion ini merupakan salah satu stadion terbesar di Asia pada masanya."
+            ]
+        },
+        {
+            "tag": "konfrontasi_malaysia",
+            "patterns": [
+                "Apa itu Konfrontasi Malaysia?",
+                "Bagaimana peran Soekarno dalam Konfrontasi Malaysia?",
+                "Kenapa Indonesia melawan Malaysia?"
+            ],
+            "responses": [
+                "Konfrontasi Malaysia adalah kebijakan Soekarno untuk menentang pembentukan negara Malaysia pada awal 1960-an. Soekarno menilai Malaysia sebagai proyek neokolonialisme Inggris.",
+                "Pada awal 1960-an, Soekarno memimpin kebijakan Konfrontasi Malaysia, karena melihat pembentukan Malaysia sebagai ancaman terhadap stabilitas kawasan dan bentuk neokolonialisme."
+            ]
+        },
+        {
+            "tag": "pembangunan",
+            "patterns": [
+                "Apa proyek besar Soekarno?",
+                "Apa proyek yang dibangun Soekarno?",
+                "Pembangunan apa saja yang dilakukan Soekarno?",
+                "Pembangunan apa saja yang digagas Soekarno?",
+                "Proyek apa saja yang dilakukan Soekarno?",
+                "Proyek apa saja yang digagas Soekarno?",
+                "Proyek monumental Soekarno"
+            ],
+            "responses": [
+                "Soekarno menggagas berbagai proyek besar seperti Monas, Gelora Bung Karno, Masjid Istiqlal, dan pembangunan infrastruktur untuk Asian Games 1962.",
+                "Proyek besar Soekarno meliputi Monumen Nasional, Gelora Bung Karno, dan Masjid Istiqlal, yang mencerminkan ambisinya untuk memajukan Indonesia."
+            ]
+        },
+        {
+            "tag": "pengasingan",
+            "patterns": [
+                "Apakah Soekarno pernah diasingkan?",
+                "Kenapa Soekarno diasingkan?",
+                "Dimana Soekarno diasingkan?"
+            ],
+            "responses": [
+                "Soekarno diasingkan oleh Belanda ke Ende (Flores) dan Bengkulu karena perannya dalam perjuangan kemerdekaan. Pengasingan ini menjadi momen refleksi penting baginya.",
+                "Pengasingan Soekarno di Ende dan Bengkulu dilakukan oleh Belanda untuk membungkam perjuangannya. Namun, periode ini justru memperkuat semangat nasionalismenya."
+            ]
+        },
+        {
+            "tag": "konferensi_asia_afrika",
+            "patterns": [
+                "Apa itu Konferensi Asia-Afrika?",
+                "Bagaimana peran Soekarno dalam Konferensi Asia-Afrika?",
+                "Kapan Konferensi Asia-Afrika diadakan?"
+            ],
+            "responses": [
+                "Konferensi Asia-Afrika diadakan pada April 1955 di Bandung. Soekarno menjadi penggagas utama untuk mempromosikan solidaritas negara-negara Asia dan Afrika.",
+                "Pada 1955, Soekarno memprakarsai Konferensi Asia-Afrika di Bandung untuk mempererat kerja sama antara negara-negara Asia dan Afrika."
+            ]
+        },
+        {
+            "tag": "peristiwa_g30s",
+            "patterns": [
+                "Apa yang terjadi pada peristiwa G30S?",
+                "Apa hubungan Soekarno dengan G30S?",
+                "Bagaimana peran Soekarno pada G30S?"
+            ],
+            "responses": [
+                "G30S adalah peristiwa politik besar pada 30 September 1965. Soekarno menghadapi tekanan karena tuduhan keterlibatannya, meski tidak ada bukti kuat yang menunjukkan hal tersebut.",
+                "Pada 30 September 1965, terjadi insiden G30S. Soekarno dianggap memiliki hubungan dengan kejadian tersebut, meski hingga kini perannya masih diperdebatkan."
+            ]
+        },
+        {
+            "tag": "wafat",
+            "patterns": [
+                "Kapan Soekarno meninggal?",
+                "Bagaimana Soekarno meninggal?",
+                "Tanggal wafat Soekarno"
+            ],
+            "responses": [
+                "Ir. Soekarno meninggal pada 21 Juni 1970 di Jakarta karena komplikasi kesehatan. Beliau dimakamkan di Blitar, Jawa Timur, di dekat makam ibunya.",
+                "Ir. Soekarno meninggal pada 21 Juni 1970 di Jakarta karena komplikasi kesehatan. Beliau dimakamkan di Blitar, Jawa Timur."
+            ]
+        },
+        {
+            "tag": "terimakasih",
+            "patterns": [
+                "Terima kasih",
+                "Terimakasih",
+                "Makasih",
+                "Thanks",
+                "Terima kasih banyak",
+                "Makasih banyak ya"
+            ],
+            "responses": [
+                "Sama-sama! Senang bisa membantu Anda.",
+                "Dengan senang hati! Jangan ragu untuk bertanya lagi jika membutuhkan informasi lebih lanjut."
+            ]
+        }
+    ]
+}
